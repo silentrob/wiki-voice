@@ -15,5 +15,4 @@ okay now lets get to code part.
 It mantains a neural network . So what ?
 A neural network is just as our brain is a collection of neurons , our brain is pretty complex
 but its best use is for pattern matching [ where it is really unbeatable ]. So whats the cool thing ? 
-This module is replicating our brain ;D
-
+This module is supposed to replicate our brain , atleast when it reads. ;D
