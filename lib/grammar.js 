@@ -1,0 +1,8 @@
+/*Not ENGLISH Grammer Rules .js */
+/* THIS IS NOT ENGLISH GRAMMER SO DONT DETAIN ME FOR IMPROPER GRAMMER */
+module.exports = {
+	chunks : [
+		["Adjective Noun"],
+		["Noun "]
+	];
+};
