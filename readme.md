@@ -1,6 +1,8 @@
 Alright so this is a much anticipated module for me by me 
 
 #Credits
+Zirak for his help.
+
 I begin with my credits because i am highly indebt'd to the apache open nlp project people \o/, them is the reason i am getting this done so fast after getting an HDD Crash :'( 
 
 you can find more about the project @
