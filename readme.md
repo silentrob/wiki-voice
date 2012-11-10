@@ -59,6 +59,6 @@ Fetchin information is the same way as asking but while fetching the last node i
 
 ##Current Contributers
 This project as done during a wikipedia hackathon Bangalore 2012
-*Sneha - Language Helper & Dev
-*Imdad - Dev & Algos
-*Abhishek - APS [ All Purpose Samurai ]
+ * Sneha - Language Helper & Dev
+ * Imdad - Dev & Algos
+ * Abhishek - APS ( Lead Developer )
