@@ -9,6 +9,10 @@ you can find more about the project @
   http://opennlp.apache.org/
 it worths playing with !
 
+Oh by the way you will have to visit the nlp site anyways in order to download the 
+   en-parser-chunking.bin 
+and place it inside the /opennlp/bin folder :D
+or it wont ever work.
 
 ##How it works ?
 
