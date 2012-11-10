@@ -1,7 +1,6 @@
 Alright so this is a much anticipated module for me by me 
 
 #Credits
-Zirak for his help.
 
 I begin with my credits because i am highly indebt'd to the apache open nlp project people \o/, them is the reason i am getting this done so fast after getting an HDD Crash :'( 
 
@@ -13,6 +12,16 @@ Oh by the way you will have to visit the nlp site anyways in order to download t
    en-parser-chunking.bin 
 and place it inside the /opennlp/bin folder :D
 or it wont ever work.
+
+The module for english is based on the research work presented here : 
+http://ailab.ijs.si/delia_rusu/Papers/is_2007.pdf
+
+The penn-tree-bank tags were aqquired from 
+http://bulba.sdsu.edu/jeanette/thesis/PennTags.html
+and they made our life easier.
+
+Thanks to Zirak for his rare help.
+Thanks to Amir for his input 
 
 ##How it works ?
 
@@ -48,3 +57,8 @@ In this way it populates the model for information with each sentence thus makin
 Fetchin information is the same way as asking but while fetching the last node is fetched . the tree traversal is somewhat the same.
 
 
+##Current Contributers
+This project as done during a wikipedia hackathon Bangalore 2012
+*Sneha - Language Helper & Dev
+*Imdad - Dev & Algos
+*Abhishek - APS [ All Purpose Samurai ]
