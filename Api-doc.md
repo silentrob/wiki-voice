@@ -25,19 +25,25 @@ just replace the linguistics and relate the grammatical helper ( the rel object)
 as in the other language ;-) Using english is quite helpful for Eng -> * transformation  as
 english is known to have the most derived syntax ever and hence the language itself is too feeble all complex language can derive words from english .. we re just inventing a multilingual translator , nothing big ;-).
 
-##Example Parse 
-[code]<code>
-Albert Einstien : { 
- 	'Scientist':{ 
- 	},
-	
-	'German Born':{
-	},
- 	'American':{
- 	},
+###Todo
+    * Add a sleep mode that parses and check inter-dependent trees and does exhaustive processing of existing trees to make the connections very prominent
+    * Add Support for Database using Redis Volatile Objects.
+    * Add an API 
 
- 	'Known':{
- 		'Contribution':{
+##Example Parse 
+<code>
+
+    'Albert Einstien' : { 
+        'Scientist':{ 
+        },
+	
+	   'German Born':{
+	   },
+        'American':{
+        },
+
+        'Known':{
+ 	  	'Contribution':{
  			'Physics': {
  				rel:'in'
  			},
@@ -59,8 +65,7 @@ Albert Einstien : {
     	}
     },
 }
-</code>[/code]
-
+</code>
 
 This model helps when traversing the article.
 you can basically query for Eienstien like
