@@ -26,8 +26,10 @@ as in the other language ;-) Using english is quite helpful for Eng -> * transfo
 english is known to have the most derived syntax ever and hence the language itself is too feeble all complex language can derive words from english .. we re just inventing a multilingual translator , nothing big ;-).
 
 ##Example Parse 
-[code]<code>
-Albert Einstien : { 
+<code>
+
+'Albert Einstien' : { 
+
  	'Scientist':{ 
  	},
 	
@@ -59,8 +61,8 @@ Albert Einstien : {
     	}
     },
 }
-</code>[/code]
 
+</code>
 
 This model helps when traversing the article.
 you can basically query for Eienstien like
@@ -68,12 +70,14 @@ you can basically query for Eienstien like
 What are albert einstien known for ?
 
 it converts the question t 
-
- Albert Einstein : {
+<code>
+ 'Albert Einstein' : {
    'Known':{
    		/* Fetch All here*/
 	}
  }
+</code>
+
 So it then traverses tree like
 
 AE -> Known -> 'Contributions!'
