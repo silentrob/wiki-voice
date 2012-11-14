@@ -1,4 +1,16 @@
-Alright so this is a much anticipated module for me by me 
+This module aims to artificially parse out information from wikipedia articles and convert them into efficent trees which are actually javascript objects which can be stored in a key value store as MongoDB or Redis, then when a user asks his question or submits his query this tree can be traversed based on his query in order to deliver content on demand.
+
+The module also encorporates an Out-of-the-Box support for Speech to Text and Text to Speech engines.
+
+The user cases are 
+  
+  * Blind People can use this to efficiently query wiki and gain knowledge
+  * The Speech To Text can be used to allow blind people to help
+  * This will wiki more helpful in general
+
+
+This module was worked up-on during the Wiki DevCamp in Bangalore 2012 
+
 #Working & API
 
 To read more about api read the API-DOC
