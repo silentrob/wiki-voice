@@ -35,8 +35,7 @@ english is known to have the most derived syntax ever and hence the language its
 
     'Albert Einstien' : { 
         'Scientist':{ 
-        },
-	
+        },	
 	   'German Born':{
 	   },
         'American':{
@@ -73,12 +72,14 @@ you can basically query for Eienstien like
 What are albert einstien known for ?
 
 it converts the question t 
-
- Albert Einstein : {
+<code>
+ 'Albert Einstein' : {
    'Known':{
    		/* Fetch All here*/
 	}
  }
+</code>
+
 So it then traverses tree like
 
 AE -> Known -> 'Contributions!'
