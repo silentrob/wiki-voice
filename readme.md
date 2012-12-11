@@ -1,3 +1,5 @@
+// Despite the last commit was about a month ago the development for this is not dead , i personally am working on this 
+// but due to work projects and college am being over-loaded.. Work shall go back in gears after December / Jan [middle ]
 This module aims to artificially parse out information from wikipedia articles and convert them into efficent trees which are actually javascript objects which can be stored in a key value store as MongoDB or Redis, then when a user asks his question or submits his query this tree can be traversed based on his query in order to deliver content on demand.
 
 The module also encorporates an Out-of-the-Box support for Speech to Text and Text to Speech engines.
